@@ -1,0 +1,155 @@
+* {
+  font-size: 10px;
+}
+
+body{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Neue Condensed', 'Neue Extended', 'Neue Ultra Light', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 1rem;
+}
+
+@font-face {
+  font-family: "Neue Condensed";
+  src: url("../assets/fonts/Helvetica\ Neue\ LT\ 57\ Condensed.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Neue Extended";
+  src: url("../assets/fonts/Helvetica\ Neue\ LT\ 53\ Extended.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Neue Ultra Light";
+  src: url("../assets/fonts/Helvetica\ Neue\ LT\ 23\ Ultra\ Light\ Extended.woff") format("woff");
+  font-weight: 500;
+}
+h1,h2,h3,h4,h5 {
+  text-transform: uppercase;
+}
+a, p, span {
+  font-size: inherit;
+}
+a {
+  color: #000;
+  text-decoration: none;
+  font-family: 'Neue Condensed', 'Roboto', 'Oxygen', 'Ubuntu';
+}
+p {
+  font-family: 'Neue Extended', 'Roboto', 'Oxygen', 'Ubuntu';
+}
+input, textarea, select {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  outline: 0;
+}
+ul, li {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  border: none;
+  background: none;
+  outline: none;
+  display: block;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.disabled {
+  opacity: 0.5;
+}
+.disp-none {
+  display: none;
+}
+.d-none {
+  display: none!important;
+}
+.o-none {
+  opacity: 0;
+}
+.capitalize {
+  text-transform: capitalize;
+}
+
+.full-page-slider-item-content {
+color: #fff;
+text-align: center;
+width: auto;
+height: auto;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+}
+
+.slider-item-content {
+width: 80%;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+text-align: center;
+color: #fff;
+user-select: none;
+}
+.slider-item-content.inverted {
+color: #000;
+}
+
+.slider-item-content-title {
+font-size: 5.5vw;
+margin: 0;
+line-height: 1;
+}
+
+.slider-item-content-subtitle {
+font-size: 1.2vw;
+line-height: 1.2;
+}
+.slider-item-content-subtitle p {
+font-size: 100%;
+}
+
+.slider-item-content-button{
+display: inline-block;
+margin-top: 16px;
+padding: 7px 40px;
+font-size: 1.2rem;
+background: transparent;
+border: 2px solid #fff;
+color: inherit;
+outline: none;
+cursor: pointer;
+}
+.slider-item-content-button.inverted{
+border: 2px solid #000;
+}
+@media screen and (max-width: 768px) {
+.slider-item-content-title {
+  font-size: 58px;
+  line-height: 60px;
+}
+.slider-item-content-subtitle {
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.2px;
+}
+}
